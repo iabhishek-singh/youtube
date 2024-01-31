@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.allowMnemonics": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.explorerKind": "integrated"
+}

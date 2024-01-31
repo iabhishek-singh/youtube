@@ -1,0 +1,498 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ /* Navigation  */
+#nav{
+    width: 90%;
+    height: 11vh;
+    margin: auto;
+    top: 0px;
+    position: sticky;
+    background-color: rgb(240, 233, 233,0.5);
+    border-radius: 25px;
+}
+.navrap{
+    width: 90%;
+    height: 11vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-column-gap: 50px;   
+}
+.logo ul {
+    margin-top: 20px;
+}
+.logo img{
+    width: 40%;
+    height: 10vh;
+}
+.menu ul {
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.menu ul li a:hover{
+    border:3px solid rgb(239, 9, 9) ;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 9px; 
+}
+.icon ul {
+    margin-top: 20px;
+}
+.icon ul li{
+    display: inline;   
+}
+.icon ul li a{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+/* Banner */
+.ban{
+    width: 100%;
+    height: 75vh;
+}
+.banrap img{
+    width: 100%;
+}
+/* BOX For Deails */
+.dealis{
+    width: 100%;
+    height: 25vh;
+}
+.dealirap{
+    width: 90%;
+    height: 20vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-column-gap: 0px;  
+    
+}
+.deal1{
+    width: 90%;
+    border: 3px solid aliceblue;
+    background-color:rgba(140, 195, 140, 0.637);
+    border-radius: 15px;
+}
+.deal1 i{
+   font-size: 80px;
+   color: rgb(166, 178, 117);
+   padding-left: 20px;
+   margin-top: 20px;
+}
+.deal1 h4{
+    margin-left: 100px;
+    margin-top: -50px;
+    padding-left: 20px;
+    color: white;
+}
+.deal2{
+    width: 90%;
+    border: 3px solid aliceblue;
+    background-color:rgba(140, 195, 140, 0.637);
+    border-radius: 15px;
+}
+.deal2 i{
+   font-size: 80px;
+   color: rgb(166, 178, 117);
+   padding-left: 20px;
+   margin-top: 20px;
+}
+.deal2 h4{
+    margin-left: 100px;
+    margin-top: -50px;
+    padding-left: 20px;
+    color: white;
+}
+.deal3{
+    width: 90%;
+    border: 3px solid aliceblue;
+    background-color:rgba(140, 195, 140, 0.637);
+    border-radius: 15px;
+}
+.deal3 i{
+   font-size: 80px;
+   color: rgb(166, 178, 117);
+   padding-left: 20px;
+   margin-top: 20px;
+}
+.deal3 h4{
+    margin-left: 100px;
+    margin-top: -50px;
+    padding-left: 20px;
+    color: white;
+}
+.deal4{
+    width: 90%;
+    border: 3px solid aliceblue;
+    background-color:rgba(140, 195, 140, 0.637);
+    border-radius: 15px;
+}
+.deal4 i{
+   font-size: 65px;
+   color: rgb(166, 178, 117);
+   padding-left: 20px;
+   margin-top: 20px;
+}
+.deal4 h4{
+    margin-left: 100px;
+    margin-top: -40px;
+    padding-left: 20px;
+    font-size: 15px;
+    color: white;
+}
+/* watch collactions  */
+.explo{
+    width: 100%;
+    height: 44vh;
+    background-image: url(./p5.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 350px;
+}
+.explorap{
+    width: 95%;
+    height: 44vh;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.explorap:hover{
+    border-radius: 20px;
+}
+.fortext {
+    text-align: center; 
+    padding: 30px;  
+    color: white;
+}
+.fortext a {
+    text-decoration: none;
+    color: white;
+}
+.fortext h2:hover{
+    border:3px solid rgb(239, 9, 9) ;
+    background-color: black;
+    border-radius: 25px;
+    padding: 12px; 
+}
+.forimg img{
+    width: 70%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.forimg1 img{
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.forimg2 img{
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+.img img{
+    width: 100%;
+    height: 70vh;
+}
+.box{
+    width: 100%;
+    height: 76vh;
+}
+.fortag{
+    width: 22.6%;
+    margin: auto;
+    height: 10vh;
+}
+.fortag h2{
+    font-size: 35px;
+    width: 138%;
+    border-bottom: 2px solid black;
+
+  }
+.fortag1 h2{
+    width: 89%;
+    margin: auto;
+    padding: 15px;
+    font-size: 35px;
+}
+.boxrap{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: auto;
+    grid-column-gap: 5px;
+    
+    
+}
+.boxrap1{
+   border: 2px solid red;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+}
+.boxrap :hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.boxrap1 p{
+    background: rgba(37, 36, 36, 0.977);
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+}
+.boxrap1 p:hover{
+    border: 2px solid red;
+    background: black;
+}
+.boxrap1 h2{
+    color:blue;
+    font-size: 35px;
+}
+.look{
+    width: 100%;
+    height: 70vh;
+}
+.cel{
+    width: 25%;
+    height: 10vh;
+    margin: auto;
+}
+.cel h3{
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+.lookrap{
+    width: 90%;
+    /* height: 65vh; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+}
+.look1{
+    width: 100%;
+    background-image: url(./ele-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.loofor {
+    width: 80%;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 300px;
+}
+#forcleimg{
+    width: 80%;
+    height: 90%;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+#forcleimg1{
+    width: 70%;
+    height: 90%;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+.forcletext h2{
+    text-align: left;
+    background-color: aliceblue;
+    margin-left: -10px;
+    margin-top: 100px;
+}
+.look2{
+    width: 100%;
+    background-image: url(./ele-2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.look3{
+    width: 100%;
+    background-image: url(./ele-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+}
+.imgage{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    padding-top: 95px;
+}
+.imgage img{
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    border-radius: 25px;
+}
+.imgage1{
+    width: 100%;
+    height: 95vh;
+}
+.imagerap{
+    width: 90%;
+    height: 95vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 25px;
+}
+.img1 img{
+    width: 100%;
+    height: 90vh;
+    border-radius: 25px;
+}
+.img2 img{
+    width: 100%;
+    height: 90vh;
+    border-radius: 25px;
+}
+.footer{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to right,rgb(255, 13, 13) ,rgba(21, 20, 20, 0.675));
+ }
+ .footerrap{
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    /* border-radius: 20px; */
+    background-color: rgba(255, 255, 255, 0.292);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+ }
+ .menu1{
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+ }
+ .menu1 h2{
+    color: white;  
+    border-bottom: 2px solid white;
+ }
+ .menu1 ul li {
+    padding-top: 9px;
+    list-style: none;
+}
+.menu1 ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* text-align: center; */
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    padding-top: 9px;
+    
+}
+.menu1 ul li a:hover{
+    color: rgb(251, 202, 4);
+    border-bottom:2px solid  rgb(246, 255, 0);
+}
+.logo1{
+    width: 60%;
+    height: 50vh;
+}
+.logo1 h2{
+    color: white;
+    /* width: 20%; */
+    border-bottom: 2px solid white;
+    text-align: center;
+ }
+ .our{
+    width: 60%;
+    color: white;
+    text-align: center;
+ }
+ .our h2{
+    border-bottom: 2px solid white;
+ }
+ .our ul li{
+    list-style: none;
+ }
+ .our ul li h3{
+    padding-top: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+.logo1 img{
+    width: 100%;
+    height: 20vh;
+    padding-top: 9px;
+}
+.app{
+    width: 50%;
+}
+.app h2{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white; 
+}
+.app ul li {
+    text-align: center;
+    padding-top: 9px;
+    list-style: none;
+}
+.app ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#app1 :hover{
+    color: red;
+}
+#app2 :hover{
+    color: blue;
+}
+#app3 :hover{
+    color: blue;
+}
+#app4 :hover{
+    color: RGB(0, 136, 204);
+}
+.map {
+    width: 85%;
+    height: 40vh;
+}
+.map h2{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.map iframe{
+    width: 100%;
+    height: 35vh;
+    border-radius: 25px;
+    margin: auto;
+    padding-top: 9px;
+}
+.line{
+    width: 100%;
+    height: 3vh;
+    background: black;
+}
+.he{
+    text-align: center;
+}
+.he h1{
+    color: rgb(251, 202, 4);
+    font-size: 15px;
+}

@@ -1,0 +1,280 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+ /* Navigation  */
+#nav{
+    width: 90%;
+    height: 11vh;
+    margin: auto;
+    top: 0px;
+    position: sticky;
+    background-color: rgb(240, 233, 233,0.5);
+    border-radius: 25px;
+}
+.navrap{
+    width: 90%;
+    height: 11vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-column-gap: 50px;   
+}
+.logo ul {
+    margin-top: 20px;
+}
+.logo img{
+    width: 40%;
+    height: 10vh;
+}
+.menu ul {
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.menu ul li a:hover{
+    border:3px solid rgb(239, 9, 9) ;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 9px; 
+}
+.icon ul {
+    margin-top: 20px;
+}
+.icon ul li{
+    display: inline;   
+}
+.icon ul li a{
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+/* Banner */
+.ban{
+    width: 100%;
+    height: 75vh;
+}
+.banrap img{
+    width: 100%;
+}
+.heading h1{
+    font-size: 65px;
+    text-align: center;
+    height: 20vh;
+}
+.box{
+    width: 100%;
+    height: 60vh;
+}
+.boxrap{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 8px;
+    border-radius: 15px;
+}
+.box1 :hover{
+    transform: scale(1.1); /* IE 9 */
+    transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+    padding: 10px;
+    transition: 0.90s ease;
+}
+.box1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid rgb(178, 191, 202);  
+    border-radius: 15px;   
+}
+.box1 img {
+    width: 100%;
+    border-radius: 15px;
+}
+.boxforte p{
+    padding: 5px;
+    text-align: center;
+    background: rgb(150, 37, 37);
+    color: white;
+    width: 60%;
+    height: 7vh;
+    margin: auto;
+    border-radius: 30px;
+}
+.boxforte p:hover{
+    background-color: white;
+    color: black;
+}
+.explo{
+    width: 25%;
+    height: 10vh;
+    margin: auto;
+}
+.explo a{
+    text-decoration: none;
+}
+.explo a h1{
+    text-align: center;
+    color: black;
+    border: 3px solid red;
+    border-radius: 25px;
+}
+.explo a :hover{
+    background-color: black;
+    color: white;
+}
+.lowertext{
+    width: 98%;
+    height: 95vh;
+    margin: auto;
+}
+.lowertext p{
+    font-size: 25px;
+    color: #000;
+}
+/* footer */
+.footer{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(to right,rgb(255, 13, 13) ,rgba(21, 20, 20, 0.675));
+ }
+ .footerrap{
+    width: 100%;
+    height: 50vh;
+    margin: auto;
+    /* border-radius: 20px; */
+    background-color: rgba(255, 255, 255, 0.292);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+ }
+ .menu1{
+    width: 50%;
+    height: 20vh;
+    text-align: center;
+ }
+ .menu1 h2{
+    color: white;  
+    border-bottom: 2px solid white;
+ }
+ .menu1 ul li {
+    /* text-align: center; */
+    padding-top: 9px;
+    list-style: none;
+}
+.menu1 ul li a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    /* padding-left: 12px; */
+    /* padding-right: 12px; */
+    padding-top: 9px;
+    
+}
+.menu1 ul li a:hover{
+    color: rgb(251, 202, 4);
+    border-bottom:2px solid  rgb(246, 255, 0);
+}
+.logo1{
+    width: 60%;
+    height: 50vh;
+}
+.logo1 h2{
+    color: white;
+    /* width: 20%; */
+    border-bottom: 2px solid white;
+    text-align: center;
+ }
+ .our{
+    width: 60%;
+    color: white;
+    text-align: center;
+ }
+ .our h2{
+    border-bottom: 2px solid white;
+ }
+ .our ul li{
+    list-style: none;
+ }
+ .our ul li h3{
+    padding-top: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+.logo1 img{
+    width: 100%;
+    height: 20vh;
+    padding-top: 9px;
+}
+.app{
+    width: 50%;
+}
+.app h2{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white; 
+}
+.app ul li {
+    text-align: center;
+    padding-top: 9px;
+    list-style: none;
+}
+.app ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#app1 :hover{
+    color: red;
+}
+#app2 :hover{
+    color: blue;
+}
+#app3 :hover{
+    color: blue;
+}
+#app4 :hover{
+    color: RGB(0, 136, 204);
+}
+.map {
+    width: 85%;
+    height: 40vh;
+}
+.map h2{
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+.map iframe{
+    width: 100%;
+    height: 35vh;
+    border-radius: 25px;
+    margin: auto;
+    padding-top: 9px;
+}
+.line{
+    width: 100%;
+    height: 3vh;
+    background: black;
+}
+.he{
+    text-align: center;
+}
+.he h1{
+    color: rgb(251, 202, 4);
+    font-size: 15px;
+}
+  
